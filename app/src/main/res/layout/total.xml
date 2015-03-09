@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"        
+        tools:context=".YourTotalIs"
+        >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"		                
+	        android:text="@string/total2" />
+	    
+	    <EditText
+	        android:id="@+id/editTextTotal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:inputType="numberDecimal"
+	        android:textSize="80sp"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        />
+	    <!-- <Button
+        android:id="@+id/button1"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/resetButton2"
+        android:textColor="#ffffff"
+        android:background="#2E0854"
+        android:onClick="onReset2"
+        /> -->
+</RelativeLayout>
+    
+    
+    
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShopHelper</string>
+    <string name="action_settings">Settings</string>
+    <string name="cost">Cost</string>
+    <string name="item">Item</string>
+    <string name="buttontext">Total</string>
+    <string name="title_activity_total">Total</string>
+    <string name="total2">Total is &#8230;</string>
+    <string name="resetButton1">Reset</string>
+    <string name="resetButton2">Reset</string>
+    <string name="title_activity_shake">Shake</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shake_detection">ShakeDetection</string>
+    <string name="title_activity_shake_detector">ShakeDetector</string>
+    <string name="title_activity_shake_event_listener">ShakeEventListener</string>
+
+</resources>
