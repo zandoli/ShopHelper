@@ -371,7 +371,8 @@ public class MainActivity extends Activity {
                 DecimalFormat num2Places = new DecimalFormat("##.00");
                 String x = "$" + num2Places.format(calcTotal);
 
-				/*double roundOff = Math.round(calcTotal * 100) / 100.00;
+
+                /*double roundOff = Math.round(calcTotal * 100) / 100.00;
 
 				// NumberFormat cF = NumberFormat.getCurrencyInstance();
 				// System.out.print(cF.format(roundOff));
@@ -489,7 +490,7 @@ public class MainActivity extends Activity {
 						"Oh Yeah!!", Toast.LENGTH_SHORT);
 				toast.show();
 
-				toast.setGravity(Gravity.CENTER | Gravity.CENTER, 0, 0);
+				toast.setGravity(Gravity.CENTER, 0, 0);
 
 				editText1c.setText(null);
 				editText2c.setText(null);
