@@ -2,11 +2,31 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\Vaughn\AndroidstudioProjects\ShopHelper\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dc0e0495b614ddbde42ee973dd692cc1b209fae5">
+        <dex dex="C:\Users\Vaughn\AndroidstudioProjects\ShopHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_da79477c752f279bce9999468aa8ff208926fb2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
-        jumboMode="false"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Vaughn\AndroidstudioProjects\ShopHelper\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-aed67c68bf5c87f28bdf115a9112757291651370.jar" />
+        <dex dex="C:\Users\Vaughn\AndroidstudioProjects\ShopHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_aed67c68bf5c87f28bdf115a9112757291651370\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vaughn\AndroidstudioProjects\ShopHelper\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="916f748ebc20c064995e595fa103dd3ee3b02c96">
+        <dex dex="C:\Users\Vaughn\AndroidstudioProjects\ShopHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bc3313c4a50d068d0fcd646db621fbac91125332\classes.dex" />
     </item>
 
 </items>

@@ -1,22 +1,22 @@
 package zandoli.shophelper;
 
-import android.os.Bundle;
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
-import android.view.Gravity;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
-import java.text.DecimalFormat;
+		import android.os.Bundle;
+		import android.app.Activity;
+		import android.content.Context;
+		import android.content.Intent;
+		import android.content.SharedPreferences;
+		import android.hardware.Sensor;
+		import android.hardware.SensorEvent;
+		import android.hardware.SensorEventListener;
+		import android.hardware.SensorManager;
+		import android.view.Gravity;
+		import android.view.Menu;
+		import android.view.View;
+		import android.view.View.OnClickListener;
+		import android.widget.Button;
+		import android.widget.EditText;
+		import android.widget.Toast;
+        import java.text.DecimalFormat;
 
 public class MainActivity extends Activity {
 
@@ -296,7 +296,7 @@ public class MainActivity extends Activity {
 
 	public void addListenerOnButton() {
 
-        Button btnCompute = (Button) findViewById(R.id.button1);
+		Button btnCompute = (Button) findViewById(R.id.button1);
 
 		btnCompute.setOnClickListener(new OnClickListener() {
 
@@ -369,19 +369,7 @@ public class MainActivity extends Activity {
 						+ c28 + c29 + c30;
 
                 DecimalFormat num2Places = new DecimalFormat("##.00");
-                String x = "$" + num2Places.format(calcTotal);
-
-
-                /*double roundOff = Math.round(calcTotal * 100) / 100.00;
-
-				// NumberFormat cF = NumberFormat.getCurrencyInstance();
-				// System.out.print(cF.format(roundOff));
-
-				DecimalFormat num2Places = new DecimalFormat("##.00");
-				//String x = "$" + roundOff;
-
-				String x = "$" + num2Places.format(roundoff);
-				*/
+				String x = "$" + num2Places.format(calcTotal);
 
 				Toast.makeText(getApplicationContext(),
 						"Go Back, Shake me! I'll clear all costs",
@@ -390,7 +378,6 @@ public class MainActivity extends Activity {
 				Intent i = new Intent(v.getContext(), YourTotalIs.class);
 				i.putExtra("otherLayout", String.valueOf(x));
 				startActivity(i);
-
 			}
 
 		});
